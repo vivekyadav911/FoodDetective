@@ -1,0 +1,217 @@
+{
+    "red_flags": [
+        {
+            "id": "pork",
+            "names": [
+                "pork",
+                "bacon",
+                "ham",
+                "prosciutto",
+                "pancetta",
+                "lard",
+                "pork fat",
+                "pork gelatin"
+            ],
+            "reason": "Pork product (Haram/Non-Vegan)",
+            "severity": "HIGH"
+        },
+        {
+            "id": "gelatin",
+            "names": [
+                "gelatin",
+                "gelatine",
+                "pork gelatin",
+                "beef gelatin"
+            ],
+            "reason": "Animal-derived gelatin (Haram/Non-Vegan)",
+            "severity": "HIGH"
+        },
+        {
+            "id": "e120",
+            "names": [
+                "carmine",
+                "cochineal",
+                "carminic acid",
+                "E120",
+                "e120",
+                "natural red 4"
+            ],
+            "reason": "Insect-derived red dye (Haram/Non-Vegan)",
+            "severity": "HIGH"
+        },
+        {
+            "id": "alcohol",
+            "names": [
+                "alcohol",
+                "ethanol",
+                "ethyl alcohol",
+                "wine",
+                "beer",
+                "rum",
+                "vodka",
+                "whiskey"
+            ],
+            "reason": "Contains alcohol (Haram)",
+            "severity": "HIGH"
+        },
+        {
+            "id": "e441",
+            "names": [
+                "E441",
+                "e441",
+                "gelatin"
+            ],
+            "reason": "Gelatin from animal sources (Haram/Non-Vegan)",
+            "severity": "HIGH"
+        },
+        {
+            "id": "lard",
+            "names": [
+                "lard",
+                "pork lard",
+                "animal fat"
+            ],
+            "reason": "Pork fat (Haram/Non-Vegan)",
+            "severity": "HIGH"
+        },
+        {
+            "id": "rennet",
+            "names": [
+                "rennet",
+                "animal rennet"
+            ],
+            "reason": "Enzyme from animal stomach (Non-Vegan, potentially Haram)",
+            "severity": "HIGH"
+        },
+        {
+            "id": "shellac",
+            "names": [
+                "shellac",
+                "E904",
+                "e904",
+                "confectioner's glaze"
+            ],
+            "reason": "Insect-derived coating (Non-Vegan)",
+            "severity": "MEDIUM"
+        },
+        {
+            "id": "whey",
+            "names": [
+                "whey",
+                "whey powder",
+                "milk whey"
+            ],
+            "reason": "Dairy product (Non-Vegan)",
+            "severity": "MEDIUM"
+        },
+        {
+            "id": "casein",
+            "names": [
+                "casein",
+                "milk protein",
+                "sodium caseinate"
+            ],
+            "reason": "Milk protein (Non-Vegan)",
+            "severity": "MEDIUM"
+        },
+        {
+            "id": "lactose",
+            "names": [
+                "lactose",
+                "milk sugar"
+            ],
+            "reason": "Milk sugar (Non-Vegan)",
+            "severity": "MEDIUM"
+        },
+        {
+            "id": "honey",
+            "names": [
+                "honey",
+                "honeycomb"
+            ],
+            "reason": "Bee product (Non-Vegan for strict vegans)",
+            "severity": "LOW"
+        }
+    ],
+    "yellow_flags": [
+        {
+            "id": "e471",
+            "names": [
+                "E471",
+                "e471",
+                "mono- and diglycerides",
+                "mono and diglycerides of fatty acids"
+            ],
+            "reason": "Can be from animal or plant fat - verify source",
+            "severity": "MEDIUM"
+        },
+        {
+            "id": "e472",
+            "names": [
+                "E472",
+                "e472",
+                "esters of mono- and diglycerides"
+            ],
+            "reason": "Can be from animal or plant fat - verify source",
+            "severity": "MEDIUM"
+        },
+        {
+            "id": "e476",
+            "names": [
+                "E476",
+                "e476",
+                "polyglycerol polyricinoleate"
+            ],
+            "reason": "Usually plant-based but verify source",
+            "severity": "LOW"
+        },
+        {
+            "id": "e481",
+            "names": [
+                "E481",
+                "e481",
+                "sodium stearoyl lactylate"
+            ],
+            "reason": "Can be from animal or plant fat - verify source",
+            "severity": "MEDIUM"
+        },
+        {
+            "id": "e482",
+            "names": [
+                "E482",
+                "e482",
+                "calcium stearoyl lactylate"
+            ],
+            "reason": "Can be from animal or plant fat - verify source",
+            "severity": "MEDIUM"
+        },
+        {
+            "id": "natural_flavors",
+            "names": [
+                "natural flavors",
+                "natural flavoring",
+                "natural flavour"
+            ],
+            "reason": "Can contain animal-derived ingredients - verify source",
+            "severity": "MEDIUM"
+        },
+        {
+            "id": "vitamin_d3",
+            "names": [
+                "vitamin D3",
+                "cholecalciferol"
+            ],
+            "reason": "Often derived from lanolin (sheep wool) - verify source",
+            "severity": "MEDIUM"
+        },
+        {
+            "id": "lecithin",
+            "names": [
+                "lecithin",
+                "soy lecithin"
+            ],
+            "reason": "Usually plant-based (soy) but can be from eggs - verify",
+            "severity": "LOW"
+        }
+    ]
+}
