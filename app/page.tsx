@@ -13,24 +13,28 @@ export default function Home() {
         <main className="min-h-screen bg-gradient-to-br from-green-50 via-white to-emerald-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
             {/* Header */}
             <header className="fixed top-0 left-0 right-0 z-40 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700">
-                <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+                <div className="container mx-auto px-4 sm:px-6 py-3 sm:py-4 md:py-5 flex items-center justify-between">
                     <div className="flex items-center gap-2">
-                        <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center">
-                            <Camera className="w-6 h-6 text-white" />
-                        </div>
-                        <h1 className="text-xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-                            PurityScan
-                        </h1>
+                        <img
+                            src="/logo.png"
+                            alt="PureDetect"
+                            className="h-10 sm:h-12 md:h-14 lg:h-16 dark:hidden"
+                        />
+                        <img
+                            src="/logo-dark.png"
+                            alt="PureDetect"
+                            className="h-10 sm:h-12 md:h-14 lg:h-16 hidden dark:block"
+                        />
                     </div>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-1 sm:gap-2">
                         <Link href="/about">
-                            <Button variant="ghost" size="icon">
-                                <Info className="w-5 h-5" />
+                            <Button variant="ghost" size="icon" className="h-9 w-9 sm:h-10 sm:w-10 md:h-11 md:w-11">
+                                <Info className="w-5 h-5 sm:w-6 sm:h-6" />
                             </Button>
                         </Link>
                         <Link href="/settings">
-                            <Button variant="ghost" size="icon">
-                                <Settings className="w-5 h-5" />
+                            <Button variant="ghost" size="icon" className="h-9 w-9 sm:h-10 sm:w-10 md:h-11 md:w-11">
+                                <Settings className="w-5 h-5 sm:w-6 sm:h-6" />
                             </Button>
                         </Link>
                     </div>

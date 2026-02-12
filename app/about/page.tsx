@@ -28,7 +28,7 @@ export default function AboutPage() {
                             <Camera className="w-10 h-10 text-white" />
                         </div>
                         <h2 className="text-2xl font-bold mb-2 bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-                            PurityScan
+                            PureDetect
                         </h2>
                         <p className="text-gray-600 dark:text-gray-300">
                             Your trusted companion for Halal & Vegan food verification
@@ -69,7 +69,7 @@ export default function AboutPage() {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="text-sm text-gray-600 dark:text-gray-400">
-                                Built for the Muslim and Vegan communities with love. Free to use, no hidden costs.
+                                Built with care for everyone who values knowing what's in their food. Free to use, no hidden costs.
                             </CardContent>
                         </Card>
                     </div>
@@ -124,7 +124,7 @@ export default function AboutPage() {
                             <CardTitle className="text-yellow-800 dark:text-yellow-200">Important Note</CardTitle>
                         </CardHeader>
                         <CardContent className="text-sm text-yellow-700 dark:text-yellow-300">
-                            PurityScan is a helpful tool but not a substitute for official Halal certification. Always verify with certified authorities when in doubt.
+                            PureDetect is a helpful tool but not a substitute for official Halal certification. Always verify with certified authorities when in doubt.
                         </CardContent>
                     </Card>
                 </div>

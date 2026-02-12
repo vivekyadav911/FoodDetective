@@ -8,13 +8,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "PurityScan - Halal & Vegan Food Scanner",
+    title: "PureDetect - Halal & Vegan Food Scanner",
     description: "Instantly scan food labels to detect non-compliant ingredients for Halal and Vegan diets",
     manifest: "/manifest.json",
     appleWebApp: {
         capable: true,
         statusBarStyle: "default",
-        title: "PurityScan",
+        title: "PureDetect",
     },
 };
 

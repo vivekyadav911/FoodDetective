@@ -1,4 +1,4 @@
-# PurityScan - Halal & Vegan Food Scanner
+# PureDetect - Halal & Vegan Food Scanner
 
 A lightning-fast, privacy-first Progressive Web App (PWA) that allows users to scan food ingredient labels to instantly detect non-compliant ingredients for Halal and Vegan diets.
 
@@ -91,11 +91,11 @@ This project is open source and available for educational purposes.
 
 ## ⚠️ Disclaimer
 
-PurityScan is a helpful tool but **not a substitute for official Halal certification**. Always verify with certified authorities when in doubt.
+PureDetect is a helpful tool but **not a substitute for official Halal certification**. Always verify with certified authorities when in doubt.
 
 ## 🙏 Acknowledgments
 
-Built with ❤️ for the Muslim and Vegan communities.
+Built with ❤️ for everyone who values transparency in their food choices.
 
 ---
 

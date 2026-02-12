@@ -45,8 +45,8 @@ export default function SettingsPage() {
                             <button
                                 onClick={() => setDietMode("halal")}
                                 className={`w-full p-4 rounded-xl border-2 transition-all ${dietMode === "halal"
-                                        ? "border-green-500 bg-green-50 dark:bg-green-900/20"
-                                        : "border-gray-200 dark:border-gray-700"
+                                    ? "border-green-500 bg-green-50 dark:bg-green-900/20"
+                                    : "border-gray-200 dark:border-gray-700"
                                     }`}
                             >
                                 <div className="flex items-center justify-between">
@@ -67,8 +67,8 @@ export default function SettingsPage() {
                             <button
                                 onClick={() => setDietMode("vegan")}
                                 className={`w-full p-4 rounded-xl border-2 transition-all ${dietMode === "vegan"
-                                        ? "border-green-500 bg-green-50 dark:bg-green-900/20"
-                                        : "border-gray-200 dark:border-gray-700"
+                                    ? "border-green-500 bg-green-50 dark:bg-green-900/20"
+                                    : "border-gray-200 dark:border-gray-700"
                                     }`}
                             >
                                 <div className="flex items-center justify-between">
@@ -89,8 +89,8 @@ export default function SettingsPage() {
                             <button
                                 onClick={() => setDietMode("both")}
                                 className={`w-full p-4 rounded-xl border-2 transition-all ${dietMode === "both"
-                                        ? "border-green-500 bg-green-50 dark:bg-green-900/20"
-                                        : "border-gray-200 dark:border-gray-700"
+                                    ? "border-green-500 bg-green-50 dark:bg-green-900/20"
+                                    : "border-gray-200 dark:border-gray-700"
                                     }`}
                             >
                                 <div className="flex items-center justify-between">
@@ -145,7 +145,7 @@ export default function SettingsPage() {
                     {/* About */}
                     <Card>
                         <CardHeader>
-                            <CardTitle>About PurityScan</CardTitle>
+                            <CardTitle>About PureDetect</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
                             <p>
@@ -155,7 +155,7 @@ export default function SettingsPage() {
                                 <strong>Privacy:</strong> All scanning happens locally on your device. No data is sent to external servers.
                             </p>
                             <p className="pt-2">
-                                Made with ❤️ for the Muslim and Vegan communities
+                                Made with ❤️ for everyone who cares about their food choices
                             </p>
                         </CardContent>
                     </Card>

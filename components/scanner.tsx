@@ -151,7 +151,7 @@ export default function Scanner({ onClose }: { onClose: () => void }) {
                             <X className="w-5 h-5" />
                         </Button>
                         <div className="bg-black/50 text-white px-4 py-2 rounded-full text-sm">
-                            PurityScan
+                            PureDetect
                         </div>
                         <div className="w-10" /> {/* Spacer */}
                     </div>
@@ -231,8 +231,8 @@ export default function Scanner({ onClose }: { onClose: () => void }) {
                                     <div
                                         key={index}
                                         className={`p-4 rounded-xl border-2 ${result.status === "danger"
-                                                ? "border-red-200 bg-red-50 dark:border-red-900 dark:bg-red-900/10"
-                                                : "border-yellow-200 bg-yellow-50 dark:border-yellow-900 dark:bg-yellow-900/10"
+                                            ? "border-red-200 bg-red-50 dark:border-red-900 dark:bg-red-900/10"
+                                            : "border-yellow-200 bg-yellow-50 dark:border-yellow-900 dark:bg-yellow-900/10"
                                             }`}
                                     >
                                         <div className="font-semibold capitalize">{ingredient.name}</div>
